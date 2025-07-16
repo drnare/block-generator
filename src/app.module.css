@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+
+  & > *:first-child {
+    flex: 1;
+  }
+  & > *:last-child {
+    max-width: 200px;
+    margin-left: auto;
+  }
+}
