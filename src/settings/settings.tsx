@@ -1,6 +1,6 @@
 import { type ChangeEvent } from 'react'
-import { useConfig } from './config'
-import { colors } from './colors'
+import { colors } from '../colors'
+import { useConfig } from '../context/config'
 import styles from './settings.module.css'
 
 export const Settings = () => {

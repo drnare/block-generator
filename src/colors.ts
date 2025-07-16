@@ -7,47 +7,47 @@ export type Color = {
 export const colors = [
   {
     name: 'Blue',
-    value: 'b',
+    value: 'B',
     color: '#00F',
   },
   {
     name: 'Red',
-    value: 'r',
+    value: 'R',
     color: '#F00',
   },
   {
     name: 'Yellow',
-    value: 'y',
+    value: 'Y',
     color: '#FF0',
   },
   {
     name: 'Green',
-    value: 'g',
+    value: 'G',
     color: '#0F0',
   },
   {
     name: 'Orange',
-    value: 'o',
+    value: 'O',
     color: '#F70',
   },
   {
     name: 'White',
-    value: 'w',
+    value: 'W',
     color: '#FFF',
   },
   {
     name: 'Purple',
-    value: 'p',
+    value: 'P',
     color: '#F0F',
   },
   {
     name: 'Turquoise',
-    value: 't',
+    value: 'T',
     color: '#0FF',
   },
   {
-    name: 'Grey',
-    value: 'g',
+    name: 'Silver',
+    value: 'S',
     color: '#777',
   },
 ]

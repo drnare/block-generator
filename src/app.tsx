@@ -1,4 +1,4 @@
-import { ConfigProvider } from './config'
+import { ConfigProvider } from './context/config'
 import { Grid } from './grid'
 import { Settings } from './settings'
 import styles from './app.module.css'
