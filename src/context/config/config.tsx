@@ -23,7 +23,7 @@ export const ConfigProvider = ({ children }: { children: ReactNode }) => {
     const output = Array.from(Array(config.rows))
       .map((_, row) =>
         Array.from(Array(config.columns))
-          // @ts-expect-error grix key needs some works
+          // @ts-expect-error grid key needs some work
           .map((_, column) => config.grid[`${row}_${column}`]?.value || '0')
           .join('')
       )
