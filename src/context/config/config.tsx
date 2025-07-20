@@ -19,8 +19,8 @@ export const ConfigProvider = ({ children }: { children: ReactNode }) => {
       grid: {},
     }))
 
-  const generateOutput = () => {
-    const output = Array.from(Array(config.rows))
+  const generateOutput = () =>
+    Array.from(Array(config.rows))
       .map((_, row) =>
         Array.from(Array(config.columns))
           // @ts-expect-error grid key needs some work
@@ -28,9 +28,6 @@ export const ConfigProvider = ({ children }: { children: ReactNode }) => {
           .join('')
       )
       .join('\n')
-
-    return output
-  }
 
   return (
     <ConfigContext value={{ config, setConfig, clear, generateOutput }}>
